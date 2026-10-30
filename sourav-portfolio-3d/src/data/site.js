@@ -44,14 +44,30 @@ export const projects = [
     visual: 'tracker',
   },
 ]
-export const experience = [{
-  role: 'Frontend Developer Intern', company: 'CanienTech', mode: 'Hybrid', period: 'Oct 2025 — Apr 2026',
-  bullets: [
-    'Built and customized responsive web pages using HTML, CSS, and JavaScript to meet project requirements.',
-    'Implemented interactive UI elements and responsive layouts for phones, tablets, and desktops.',
-    'Used Git and GitHub for version control across projects.',
-  ],
-}]
+export const experience = [
+  {
+    role: "Software Developer Intern",
+    company: "CanienTech",
+    mode: "Hybrid",
+    period: "Oct 2025 — Apr 2026",
+    bullets: [
+      "Built and customized responsive web pages using HTML, CSS, and JavaScript to meet project requirements.",
+      "Implemented interactive UI elements and responsive layouts for phones, tablets, and desktops.",
+      "Used Git and GitHub for version control across projects.",
+    ],
+  },
+  {
+    role: "Python & AI Intern",
+    company: "Oditech Global Pvt. Ltd.",
+    mode: "Internship",
+    period: "Feb 2026 — Jul 2026",
+    bullets: [
+      "Worked on Python and AI/ML-focused development tasks.",
+      "Contributed to an AI-based Customer Segmentation System project.",
+      "Worked with machine learning workflows and model improvement.",
+    ],
+  },
+];
 export const education = [{ degree: 'B.Tech, Computer Science & Engineering', school: 'Aryan Institute of Engineering and Technology', affiliation: 'BPUT', period: '2023 — 2027 (Expected)' }]
 export const services = [
   { n: '01', title: 'Responsive Frontend Development', desc: 'Mobile-first interfaces built with React, Tailwind CSS, and careful responsive layouts.' },
